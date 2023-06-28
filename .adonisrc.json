@@ -74,7 +74,7 @@
       {
         "name": "functional",
         "files": [
-          "tests/functional/**/*.spec(.ts|.js)","tests/**/*.spec(.ts|.js)"
+          "tests/**/**/*.spec(.ts|.js)","tests/**/*.spec(.ts|.js)"
         ],
         "timeout": 60000
       }
