@@ -24,6 +24,7 @@ Route.get('/', async () => {
   return { hello: 'world' }
 })
 
-
+//Para chamar o controller cirado, eu psso ele depois do endpoint, em formato string mesmo, como abaixo "UsersController"
+//Por convenção, quando for uma função para salvar algo, se coloca o nome do método como store
 Route.post('/users', "UsersController.store")
 
